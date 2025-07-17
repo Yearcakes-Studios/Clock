@@ -9,6 +9,17 @@
 	Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
 	<Grid>
-
+		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+			<TextBlock Text="Yearcakes Clock" 
+					   FontSize="32" 
+					   FontWeight="Bold" 
+					   HorizontalAlignment="Center" 
+					   Margin="0,0,0,20"/>
+			<TextBlock Text="This is an Xbox Game Bar widget. Please launch it from the Xbox Game Bar overlay (Win+G)." 
+					   FontSize="16" 
+					   HorizontalAlignment="Center" 
+					   TextWrapping="Wrap" 
+					   MaxWidth="400"/>
+		</StackPanel>
 	</Grid>
 </Page>

@@ -1,25 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+﻿using Windows.UI.Xaml.Controls;
 
 namespace Clock
 {
-	public sealed partial class MainPage : Page
-	{
-		public MainPage()
-		{
-			this.InitializeComponent();
-		}
-	}
+    /// <summary>
+    /// Main page for the application (not used in widget mode)
+    /// </summary>
+    public sealed partial class MainPage : Page
+    {
+        /// <summary>
+        /// Initializes a new instance of the MainPage class
+        /// </summary>
+        public MainPage()
+        {
+            this.InitializeComponent();
+        }
+    }
 }
